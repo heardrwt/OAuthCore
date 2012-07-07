@@ -36,6 +36,9 @@
  *
  */
 /*
+ * Based on portions of NSData-OFEncoding by Omni Development, Inc. (base 64 encoding and decoding.)
+ * Copyright (c) 1998-2005, 2007, 2008 Omni Development, Inc.  All rights reserved.
+ *
  * OPEN PERMISSION TO USE AND REPRODUCE OMNI SOURCE CODE SOFTWARE
  *
  * Omni Source Code software is available from The Omni Group on their
@@ -70,6 +73,8 @@
 //  this become part of a larger independently-compiled framework that could be
 //  an option, but for now, since it's just a class for inclusion into other 
 //  things, I'll resort to using the Omni version
+
+// https://github.com/omnigroup/OmniGroup/blob/master/Frameworks/OmniFoundation/OpenStepExtensions.subproj/NSData-OFEncoding.m
 
 @implementation NSData (Base64)
 
